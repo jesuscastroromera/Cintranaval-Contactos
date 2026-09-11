@@ -1,0 +1,9 @@
+CINTRANAVAL CONTACTOS — INSTALACION GRATIS EN IPHONE
+
+1. Crea en GitHub un repositorio PUBLICO: cintranaval-contactos
+2. Sube todos los archivos de esta carpeta.
+3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Abre en Safari la URL HTTPS que te da GitHub.
+5. Safari > Compartir > Añadir a pantalla de inicio.
+
+IMPORTANTE: nunca subas al repositorio archivos con contactos, vCards, Excel ni backups JSON.

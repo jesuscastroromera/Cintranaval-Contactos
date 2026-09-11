@@ -1,0 +1,29 @@
+CINTRANAVAL CONTACTOS · iPhone v6.2
+=========================================
+
+Esta versión usa como icono oficial el símbolo de la ola de Cintranaval con auricular,
+sin texto y con fondo transparente.
+
+ARCHIVOS PRINCIPALES
+- index.html: aplicación PWA para publicar mediante HTTPS.
+- manifest.webmanifest: configuración de la app instalable.
+- service-worker.js: funcionamiento offline.
+- icons/: iconos específicos para iPhone/PWA.
+- GESTOR_CONTACTOS_IPHONE_FALLBACK.html: copia de respaldo.
+
+INSTALAR EN IPHONE
+1. Publica la carpeta completa en una dirección HTTPS.
+2. Abre esa dirección con Safari en el iPhone.
+3. Pulsa Compartir.
+4. Pulsa “Añadir a pantalla de inicio”.
+5. La app aparecerá como “Contactos” con el nuevo icono.
+
+IMPORTANTE
+La PWA almacena los contactos localmente en el iPhone mediante IndexedDB.
+Conviene utilizar periódicamente la opción de copia de seguridad de la propia app.
+
+Una página abierta directamente desde la app Archivos no tiene las mismas garantías
+de persistencia/instalación que la versión publicada por HTTPS.
+
+VERSIÓN
+v6.2 iPhone PWA
