@@ -55,7 +55,11 @@ Los contactos locales no deberían borrarse al actualizar archivos del sitio por
 - `index.html`: aplicación.
 - `manifest.webmanifest`: definición PWA.
 - `service-worker.js`: funcionamiento offline y caché.
-- `icons/`: iconos de iPhone/PWA.
+- `cintranaval-logo.png` y `icon-*.png`: logo e iconos en la raíz.
 - `.nojekyll`: evita procesamiento innecesario de GitHub Pages.
 - `404.html`: respaldo de navegación.
 - `extras/`: copia HTML de emergencia e instrucciones antiguas; no es necesaria para el funcionamiento de la PWA.
+
+
+## Corrección v6.4.1: logo
+Los iconos ya no dependen de la carpeta `icons/`. Los archivos `cintranaval-logo.png`, `apple-touch-icon-v641.png`, `icon-192.png`, `icon-512.png`, `icon-1024.png` y `favicon-64.png` deben estar al mismo nivel que `index.html`. El service worker usa una caché nueva para forzar la actualización.

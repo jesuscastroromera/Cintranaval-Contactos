@@ -1,13 +1,14 @@
-const CACHE='cintranaval-contactos-pwa-v6.4';
+const CACHE='cintranaval-contactos-pwa-v6.4.1';
 const CORE=[
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-1024.png',
-  './icons/apple-touch-icon.png',
-  './icons/favicon-64.png'
+  './cintranaval-logo.png',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-1024.png',
+  './apple-touch-icon-v641.png',
+  './favicon-64.png'
 ];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))

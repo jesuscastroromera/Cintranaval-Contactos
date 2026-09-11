@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="theme-color" content="#083b73"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Cintranaval Contactos"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="format-detection" content="telephone=no"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png"><link rel="icon" type="image/png" sizes="64x64" href="icons/favicon-64.png">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="theme-color" content="#083b73"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Cintranaval Contactos"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="format-detection" content="telephone=no"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-v641.png"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="icon-512.png"><link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
 <title>Cintranaval Contactos · PWA v6.4</title>
 <style>
 :root{--bg:#f4f6f8;--panel:#fff;--ink:#18212b;--muted:#66717f;--line:#dfe4ea;--accent:#1f4b6e;--danger:#9b2c2c;--ok:#246b47;--warn:#9a6700;--info:#315f88}
@@ -77,7 +77,7 @@ body{min-height:100dvh;padding-bottom:max(10px,var(--ios-bottom));-webkit-tap-hi
 body.ios-browser .ios-install-hint{display:block}
 </style></head>
 <body>
-<header><div class="brand-head"><img class="app-logo" src="icons/icon-192.png" alt="Cintranaval Contactos"><div><h1>Cintranaval Contactos</h1><div class="sub">Agenda Servidor + Agenda Móvil · comparación · sincronización · vCard · control de calidad</div></div></div><div class="small">v6.2 iPhone · PWA · toque para editar · selección múltiple · 100 % local</div></header>
+<header><div class="brand-head"><img class="app-logo" src="cintranaval-logo.png" alt="Cintranaval Contactos"><div><h1>Cintranaval Contactos</h1><div class="sub">Agenda Servidor + Agenda Móvil · comparación · sincronización · vCard · control de calidad</div></div></div><div class="small">v6.4.1 iPhone · PWA · toque para editar · selección múltiple · 100 % local</div></header>
 <div class="wrap"><div id="iosInstallHint" class="ios-install-hint"><b>Instalar en iPhone:</b> abre esta página en Safari, pulsa Compartir y elige <b>Añadir a pantalla de inicio</b>. Después ábrela desde el icono “Contactos”.</div><nav>
 <button class="tab active" data-view="inicio">Inicio</button><button class="tab" data-view="importar">Importar</button><button class="tab" data-view="revision">Revisión <span id="navReviewBadge" class="badge warnb">0</span></button><button class="tab" data-view="servidor">Agenda Servidor</button><button class="tab" data-view="movil">Agenda Móvil</button><button class="tab" data-view="duplicados">Duplicados</button><button class="tab" data-view="sincronizar">Comparar / Sincronizar</button><button class="tab" data-view="empresas">Empresas</button><button class="tab" data-view="exportar">Exportar / Backup</button>
 </nav>
@@ -608,7 +608,7 @@ function renderSync(){const src=$('#syncSource').value,filter=$('#syncFilter').v
  const isStandalone=window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
  if(isIOS&&!isStandalone)document.body.classList.add('ios-browser');
  if('serviceWorker' in navigator && /^https?:$/.test(location.protocol)){
-   navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
+   navigator.serviceWorker.register('./service-worker.js?v=641').catch(()=>{});
  }
  if(navigator.storage&&navigator.storage.persist){navigator.storage.persist().catch(()=>{});}
  await loadDB();relink(false);dataRevision++;refresh('inicio');
