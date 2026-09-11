@@ -1,7 +1,7 @@
 {
   "name": "Contactos CND",
   "short_name": "Contactos CND",
-  "description": "Gestor local de contactos CND: Agenda CND y Agenda personal, revisión, duplicados, vCard y sincronización.",
+  "description": "Gestor local Contactos CND v6.7: importación conservadora y auditada, Agenda CND y Agenda personal, revisión, duplicados, vCard y sincronización.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

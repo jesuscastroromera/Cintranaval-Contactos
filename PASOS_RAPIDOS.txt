@@ -1,4 +1,4 @@
-CINTRANAVAL CONTACTOS PWA v6.6 — CORRECCIÓN DE LOGO
+CINTRANAVAL CONTACTOS PWA v6.7 — CORRECCIÓN DE LOGO
 
 Todos los archivos necesarios para el logo/iconos están ahora en la RAÍZ del repositorio.
 NO necesitas subir la carpeta icons.
@@ -19,7 +19,7 @@ Archivos de logo/icono en raíz:
 - icon-1024.png
 - favicon-64.png
 
-NOVEDADES v6.6
+NOVEDADES v6.7
 - La app se llama Contactos CND.
 - Primeros accesos: Inicio > Agenda CND > Agenda personal.
 - Puedes crear un contacto manualmente desde cualquiera de las dos agendas.
@@ -27,6 +27,6 @@ NOVEDADES v6.6
 - Desde Agenda personal puedes volcar una vCard completa exportada desde Contactos del iPhone.
 - Desde Agenda CND puedes importar directamente una vCard puntual del iPhone.
 
-NOVEDAD v6.6
+NOVEDAD v6.7
 - Las páginas de listados muestran buscador + contactos + botón Acciones.
 - Alta, importación, copia, exportación, borrado y mantenimiento están dentro del desplegable Acciones.

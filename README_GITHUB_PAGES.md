@@ -1,4 +1,4 @@
-# Contactos CND PWA v6.6 — publicación gratuita en GitHub Pages
+# Contactos CND PWA v6.7 — publicación gratuita en GitHub Pages
 
 Este paquete está preparado para publicarse como una PWA estática. No requiere Mac, Xcode, Apple Developer ni servidor propio.
 
@@ -61,9 +61,14 @@ Los contactos locales no deberían borrarse al actualizar archivos del sitio por
 - `extras/`: copia HTML de emergencia e instrucciones antiguas; no es necesaria para el funcionamiento de la PWA.
 
 
-## Corrección v6.6: logo
+## Corrección v6.7: logo
 Los iconos ya no dependen de la carpeta `icons/`. Los archivos `cintranaval-logo.png`, `apple-touch-icon-v641.png`, `icon-192.png`, `icon-512.png`, `icon-1024.png` y `favicon-64.png` deben estar al mismo nivel que `index.html`. El service worker usa una caché nueva para forzar la actualización.
 
 
-## Novedad v6.6: interfaz de acciones
+## Novedad v6.7: interfaz de acciones
 En Agenda CND, Agenda personal, Revisión, Duplicados, Comparar/Sincronizar y Empresas, las operaciones se concentran en un botón **Acciones** desplegable. El buscador y la tabla quedan siempre visibles para simplificar el uso en iPhone.
+
+
+## Cambio importante en v6.7
+
+La importación de contactos es ahora conservadora y auditada. Por defecto no fusiona filas durante la carga. La versión anterior podía fusionar contactos distintos si compartían nombre/empresa, teléfono corporativo o email. La pantalla Importar muestra cuántas filas se han leído, añadido, actualizado u omitido y permite reemplazar una agenda completa desde un archivo.

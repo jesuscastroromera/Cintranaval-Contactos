@@ -1,4 +1,4 @@
-const CACHE='contactos-cnd-pwa-v6.6';
+const CACHE='contactos-cnd-pwa-v6.7';
 const CORE=[
   './',
   './index.html',
