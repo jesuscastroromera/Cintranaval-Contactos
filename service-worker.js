@@ -1,4 +1,4 @@
-const CACHE='cintranaval-contactos-pwa-v6.4.1';
+const CACHE='contactos-cnd-pwa-v6.5';
 const CORE=[
   './',
   './index.html',
@@ -7,7 +7,7 @@ const CORE=[
   './icon-192.png',
   './icon-512.png',
   './icon-1024.png',
-  './apple-touch-icon-v641.png',
+  './apple-touch-icon-v650.png',
   './favicon-64.png'
 ];
 self.addEventListener('install',event=>{

@@ -1,4 +1,4 @@
-# Cintranaval Contactos PWA v6.4 — publicación gratuita en GitHub Pages
+# Contactos CND PWA v6.5 — publicación gratuita en GitHub Pages
 
 Este paquete está preparado para publicarse como una PWA estática. No requiere Mac, Xcode, Apple Developer ni servidor propio.
 
@@ -27,7 +27,7 @@ Este paquete está preparado para publicarse como una PWA estática. No requiere
 1. Abre la URL publicada con **Safari**.
 2. Pulsa el botón **Compartir**.
 3. Selecciona **Añadir a pantalla de inicio**.
-4. Confirma el nombre `Cintranaval Contactos`.
+4. Confirma el nombre `Contactos CND`.
 5. Abre la app desde el nuevo icono de la pantalla de inicio.
 
 La primera apertura necesita conexión para descargar la aplicación. Después, el service worker permite abrir la interfaz sin conexión.
@@ -38,7 +38,7 @@ La forma más segura es:
 
 1. En el ordenador, exporta una copia de seguridad JSON, Excel consolidado o vCard desde la versión que estés usando.
 2. Pásala al iPhone mediante iCloud Drive, AirDrop, correo o la app Archivos.
-3. En `Cintranaval Contactos`, usa `Importar` o `Restaurar copia` según corresponda.
+3. En `Contactos CND`, usa `Importar` o `Restaurar copia` según corresponda.
 
 ## Actualizaciones futuras
 
@@ -61,5 +61,5 @@ Los contactos locales no deberían borrarse al actualizar archivos del sitio por
 - `extras/`: copia HTML de emergencia e instrucciones antiguas; no es necesaria para el funcionamiento de la PWA.
 
 
-## Corrección v6.4.1: logo
+## Corrección v6.5: logo
 Los iconos ya no dependen de la carpeta `icons/`. Los archivos `cintranaval-logo.png`, `apple-touch-icon-v641.png`, `icon-192.png`, `icon-512.png`, `icon-1024.png` y `favicon-64.png` deben estar al mismo nivel que `index.html`. El service worker usa una caché nueva para forzar la actualización.
